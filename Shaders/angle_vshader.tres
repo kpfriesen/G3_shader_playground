@@ -1,0 +1,83 @@
+[gd_resource type="VisualShader" load_steps=7 format=2]
+
+[sub_resource type="VisualShaderNodeInput" id=1]
+input_name = "normal"
+
+[sub_resource type="VisualShaderNodeInput" id=2]
+input_name = "camera"
+
+[sub_resource type="VisualShaderNodeTransformVecMult" id=3]
+operator = 2
+
+[sub_resource type="VisualShaderNodeVectorDecompose" id=4]
+
+[sub_resource type="VisualShaderNodeScalarConstant" id=5]
+constant = 0.3
+
+[sub_resource type="VisualShaderNodeScalarOp" id=6]
+operator = 1
+
+[resource]
+code = "shader_type spatial;
+
+
+
+void vertex() {
+// Output:0
+
+}
+
+void fragment() {
+// Input:3
+	mat4 n_out3p0;
+	n_out3p0 = CAMERA_MATRIX;
+
+// Input:2
+	vec3 n_out2p0;
+	n_out2p0 = NORMAL;
+
+// TransformVectorMult:4
+	vec3 n_out4p0;
+	n_out4p0 = ( n_out3p0 * vec4(n_out2p0, 0.0) ).xyz;
+
+// VectorDecompose:5
+	float n_out5p0;
+	float n_out5p1;
+	float n_out5p2;
+	n_out5p0 = n_out4p0.x;
+	n_out5p1 = n_out4p0.y;
+	n_out5p2 = n_out4p0.z;
+
+// Scalar:6
+	float n_out6p0;
+	n_out6p0 = 0.300000;
+
+// ScalarOp:7
+	float n_out7p0;
+	n_out7p0 = n_out5p1 - n_out6p0;
+
+// Output:0
+	ALBEDO = vec3(n_out7p0);
+
+}
+
+void light() {
+// Output:0
+
+}
+"
+graph_offset = Vector2( -550, 144 )
+nodes/fragment/0/position = Vector2( 600, 160 )
+nodes/fragment/2/node = SubResource( 1 )
+nodes/fragment/2/position = Vector2( -560, 340 )
+nodes/fragment/3/node = SubResource( 2 )
+nodes/fragment/3/position = Vector2( -520, 220 )
+nodes/fragment/4/node = SubResource( 3 )
+nodes/fragment/4/position = Vector2( -320, 240 )
+nodes/fragment/5/node = SubResource( 4 )
+nodes/fragment/5/position = Vector2( -40, 260 )
+nodes/fragment/6/node = SubResource( 5 )
+nodes/fragment/6/position = Vector2( -80, 400 )
+nodes/fragment/7/node = SubResource( 6 )
+nodes/fragment/7/position = Vector2( 240, 240 )
+nodes/fragment/connections = PoolIntArray( 3, 0, 4, 0, 2, 0, 4, 1, 4, 0, 5, 0, 6, 0, 7, 1, 7, 0, 0, 0, 5, 1, 7, 0 )
