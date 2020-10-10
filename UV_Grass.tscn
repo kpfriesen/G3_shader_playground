@@ -1,0 +1,327 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Shaders/grass_shader.tres" type="Material" id=1]
+[ext_resource path="res://Meshes/UV_Grass.tres" type="ArrayMesh" id=2]
+
+[node name="Grass Collection" type="Spatial"]
+transform = Transform( 0.499771, 0, 0, 0, 0.499771, 0, 0, 0, 0.499771, 0, 0, 0 )
+
+[node name="grass_01" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.05347, 0, -3.21125 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_02" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.03978, 0, -3.21125 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_03" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.03978, 0, -3.21125 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_04" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.99598, 0, -3.21125 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_05" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.05347, 0, -1.16409 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_06" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.03978, 0, -1.16409 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_07" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.03978, 0, -1.16409 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_08" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.99598, 0, -1.16409 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_09" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.05347, 0, -7.19815 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_10" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.03978, 0, -7.19815 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_11" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.03978, 0, -7.19815 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_12" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.99598, 0, -7.19815 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_13" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.05347, 0, -5.15099 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_14" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.03978, 0, -5.15099 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_15" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.03978, 0, -5.15099 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_16" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.99598, 0, -5.15099 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_17" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.05347, 0, 4.80703 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_18" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.03978, 0, 4.80703 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_19" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.03978, 0, 4.80703 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_20" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.99598, 0, 4.80703 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_21" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.05347, 0, 6.85419 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_22" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.03978, 0, 6.85419 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_23" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.03978, 0, 6.85419 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_24" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.99598, 0, 6.85419 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_25" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.05347, 0, 0.820137 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_26" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.03978, 0, 0.820137 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_27" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.03978, 0, 0.820137 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_28" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.99598, 0, 0.820137 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_29" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.05347, 0, 2.8673 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_30" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.03978, 0, 2.8673 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_31" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.03978, 0, 2.8673 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_32" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.99598, 0, 2.8673 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_33" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.94691, 0, -3.21125 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_34" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.96061, 0, -3.21125 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_35" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.960608, 0, -3.21125 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_36" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0044, 0, -3.21125 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_37" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.94691, 0, -1.16409 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_38" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.96061, 0, -1.16409 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_39" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.960608, 0, -1.16409 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_40" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0044, 0, -1.16409 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_41" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.94691, 0, -7.19815 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_42" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.96061, 0, -7.19815 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_43" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.960608, 0, -7.19815 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_44" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0044, 0, -7.19815 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_45" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.94691, 0, -5.15099 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_46" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.96061, 0, -5.15099 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_47" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.960608, 0, -5.15099 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_48" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0044, 0, -5.15099 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_49" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.94691, 0, 4.80703 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_50" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.96061, 0, 4.80703 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_51" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.960608, 0, 4.80703 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_52" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0044, 0, 4.80703 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_53" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.94691, 0, 6.85419 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_54" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.96061, 0, 6.85419 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_55" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.960608, 0, 6.85419 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_56" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0044, 0, 6.85419 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_57" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.94691, 0, 0.820137 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_58" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.96061, 0, 0.820137 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_59" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.960608, 0, 0.820137 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_60" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0044, 0, 0.820137 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_61" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.94691, 0, 2.8673 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_62" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.96061, 0, 2.8673 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_63" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.960608, 0, 2.8673 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="grass_64" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0044, 0, 2.8673 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )

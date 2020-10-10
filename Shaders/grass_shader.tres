@@ -4,5 +4,5 @@
 
 [resource]
 shader = ExtResource( 1 )
-shader_param/Wind_Regularity = null
-shader_param/wind_speed = null
+shader_param/Wind_Regularity = 0.875
+shader_param/wind_speed = 0.108
